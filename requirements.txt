@@ -1,1 +1,5 @@
-flask
+fastapi
+uvicorn
+SQLAlchemy
+bcrypt
+psycopg2-binary  # Für PostgreSQL-Verbindung
