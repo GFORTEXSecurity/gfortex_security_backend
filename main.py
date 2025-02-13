@@ -1,4 +1,8 @@
-@app.get("/api/hello")
-def hello():
-    return {"message": "Hallo, die API läuft!"}
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "Die API läuft!"}
 
